@@ -1,0 +1,19 @@
+.preloader {
+  width: max-content;
+  position: relative;
+  margin: -10px auto 0 auto;
+}
+
+.preloader-cart {
+  width: max-content;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 15%;
+}
+
+.product__adding-status,
+.product__adding-loading {
+  grid-column: 3 / 5;
+  grid-row: 2/3;
+}
